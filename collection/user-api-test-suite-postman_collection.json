@@ -1,0 +1,326 @@
+{
+	"info": {
+		"_postman_id": "04e48a5f-c738-4bf7-b5ed-0b96c3142f62",
+		"name": "api testing demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get https://gorest.co.in/public/v1/users/2051",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer c1d97f1e53b2dcc78477ba7eafb002134e4fcb6a1c81cb634818ea9f759961d3",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users/10891",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users",
+						"10891"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post https://gorest.co.in/public/v1/users",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer c1d97f1e53b2dcc78477ba7eafb002134e4fcb6a1c81cb634818ea9f759961d3",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Tenali Ramakrishna\",\r\n    \"gender\": \"male\",\r\n    \"email\": \"tenali.ramakrishna@15ce.com\",\r\n    \"status\": \"active\"\r\n}"
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post NT invalid name",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer c1d97f1e53b2dcc78477ba7eafb002134e4fcb6a1c81cb634818ea9f759961d3",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Tenali Ramakrishna\",\r\n    \"gender\": \"male\",\r\n    \"email\": \"tenali.ramakrishna@15ce.com\",\r\n    \"status\": \"active\"\r\n}"
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post NT invalid name Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer c1d97f1e53b2dcc78477ba7eafb002134e4fcb6a1c81cb634818ea9f759961d3",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Tenali Ramakrishna\",\r\n    \"gender\": \"male\",\r\n    \"email\": \"tenali.ramakrishna@15ce.com\",\r\n    \"status\": \"active\"\r\n}"
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "patch https://gorest.co.in/public/v1/users/1445",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer c1d97f1e53b2dcc78477ba7eafb002134e4fcb6a1c81cb634818ea9f759961d3",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1445,\r\n        \"name\": \"Monica\",\r\n        \"email\": \"tenali.ramakrishna@15ce.com\",\r\n        \"gender\": \"male\",\r\n        \"status\": \"active\"\r\n    }"
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users/1445",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users",
+						"1445"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "patch https://gorest.co.in/public/v1/users/1445 Copy",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer c1d97f1e53b2dcc78477ba7eafb002134e4fcb6a1c81cb634818ea9f759961d3",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1445,\r\n        \"name\": \"Monica\",\r\n        \"email\": \"tenali.ramakrishna@15ce.com\",\r\n        \"gender\": \"male\",\r\n        \"status\": \"active\"\r\n    }"
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users/1445",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users",
+						"1445"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get https://gorest.co.in/public/v1/users/10891",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/users/1800",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"users",
+						"1800"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

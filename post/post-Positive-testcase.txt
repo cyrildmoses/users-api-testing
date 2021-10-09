@@ -1,0 +1,10 @@
+curl --location --request POST 'https://gorest.co.in/public/v1/users' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer c1d97f1e53b2dcc78477ba7eafb002134e4fcb6a1c81cb634818ea9f759961d3' \
+--data-raw '{
+    "name": "efrain",
+    "gender": "male",
+    "email": "efrain.test@test.com",
+    "status": "active"
+}'
