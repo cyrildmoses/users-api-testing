@@ -5,6 +5,6 @@ curl --location --request POST 'https://gorest.co.in/public/v1/users' \
 --data-raw '{
     "name": "123",
     "gender": "male",
-    "email": "tenali.ramakrishna@315ce.com",
+    "email": "test@test.com",
     "status": "active"
 }'
